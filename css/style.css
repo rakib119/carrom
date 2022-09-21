@@ -7,88 +7,78 @@ body{
 .sidebar{    
     margin: 0 auto;
     width: 500px;
-    height: 500px;
+    height: 500px; 
     background: #000;
     position: relative;  
 }
 .main{
+    
     width: 450px;
     height: 450px;
-    background: #FFD0A5; 
+    background: #d1ac8e; 
     box-sizing: border-box;
     position: absolute;
     top: 25px;
     left: 25px;
     bottom: 25px;
-    right: 25px;
-    /* border:18px solid #1c1c1c; */
-    border-radius: 12px;
-    /* box-shadow: inset(0 0 10px 10px rgb(235, 227, 227)); */
+    right: 25px; 
+    border-radius: 12px; 
 
 }
-
+/* sidebar-corner */
+.sidebar-corner{  
+ background: #474747 !important;
+}
 /* ======= Bottom Extra part ======== */
-.top-left-up{
+.top-left-up{ 
  width: 50px;
- height: 25px;
- background: #7d3f05;
+ height: 25px; 
  position: absolute; 
  top: 0; 
 }
 .top-left-down{
  width: 25px;
- height: 50px;
- /* background: #fff; */
- background:  #7d3f05;
+ height: 50px;  
  position: absolute; 
  top: 0;
 }
 .top-right-up{
  width: 50px;
- height: 25px;
- background: #7d3f05;
+ height: 25px; 
  position: absolute; 
  top: 0;
  right: 0;
 }
 .top-right-down{
  width: 25px;
- height: 50px;
- /* background: #fff; */
- background:  #7d3f05;
+ height: 50px; 
  position: absolute; 
  top: 0;
  right: 0;
 }
 /* ========bottom part======== */
-.bottom-left-up{
+.bottom-left-up{ 
  width: 50px;
- height: 25px;
- background: #7d3f05;
+ height: 25px; 
  position: absolute; 
  bottom: 0;
 }
 .bottom-left-down{
  width: 25px;
- height: 50px;
- /* background: #fff; */
- background:  #7d3f05;
+ height: 50px;  
  position: absolute; 
  bottom: 0;
 }
 .bottom-right-up{
  width: 50px;
  height: 25px;
- background: #7d3f05;
  position: absolute; 
  bottom: 0;
  right: 0;
 }
 .bottom-right-down{
  width: 25px;
- height: 50px;
- /* background: #fff; */
- background:  #7d3f05;
+ height: 50px; 
  position: absolute; 
  bottom: 0;
  right: 0;
@@ -96,10 +86,9 @@ body{
  /* ======== Circle ======= */
  .hole-circle{ 
     width: 25px;
-    height: 25px;
-    /* color: #4a4948; */
+    height: 25px; 
     border-radius: 50%;
-    background: rgb(110, 3, 3);
+    background: #595958
  }
 
  /* ====== net hole positioning ====== */
@@ -129,7 +118,7 @@ body{
     height: 25px; 
     border-radius: 50%; 
     background: rgb(220, 7, 7);
-    border: 3px solid rgba(110, 3, 3,2); 
+    border: 3px solid #000; 
  }
 
  /*==========Base top============*/
@@ -146,7 +135,7 @@ body{
  .base-top-1::before{ 
     content: '';
     position: absolute;
-    background: rgba(110, 3, 3,2); 
+    background: #000; 
     left: 13px;
     top: -2px;
     height: 3px;
@@ -155,7 +144,7 @@ body{
  .base-top-1::after{ 
     content: '';
     position: absolute;
-    background: rgba(110, 3, 3,2);
+    background: #000;
     top: 21px;
     left: 13px;
     height: 1px;
@@ -185,7 +174,7 @@ body{
  .base-bottom-1::before{ 
     content: '';
     position: absolute;
-    background: rgba(110, 3, 3,2); 
+    background: #000; 
     left: 13px;
     bottom: -2px;
     height: 3px;
@@ -194,7 +183,7 @@ body{
  .base-bottom-1::after{ 
     content: '';
     position: absolute;
-    background: rgba(110, 3, 3,2);
+    background: #000;
     bottom: 21px;
     left: 13px;
     height: 1px;
@@ -223,7 +212,7 @@ body{
  .base-left-1::before{
     content: '';
     position: absolute;
-    background: rgba(110, 3, 3,2);
+    background: #000;
     top: 13px;
     left: -2px;
     width: 2px;
@@ -232,7 +221,7 @@ body{
  .base-left-1::after{
     content: '';
     position: absolute;
-    background: rgba(110, 3, 3,2);
+    background: #000;
     top: 13px;
     left: 21px;
     width: 1px;
@@ -262,7 +251,7 @@ body{
  .base-right-1::before{
     content: '';
     position: absolute;
-    background: rgba(110, 3, 3,2);
+    background: #000;
     top: 13px;
     right: -2px;
     width: 2px;
@@ -271,7 +260,7 @@ body{
  .base-right-1::after{
     content: '';
     position: absolute;
-    background: rgba(110, 3, 3,2);
+    background: #000;
     top: 13px;
     right: 21px;
     width: 1px;
@@ -295,14 +284,14 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); 
-    border: 1px solid  rgba(110, 3, 3,2);
+    border: 1px solid  #000;
 }
 /* ======== Arrow ========*/
 .arrow{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid  rgba(110, 3, 3,2);
+    border: 1px solid  #464444;
 }
 .a-top-left{
    position: absolute; 
@@ -315,7 +304,7 @@ body{
    transform: rotate(45deg);
    width: 115px;
    height: 1px;
-   background: rgba(110, 3, 3,2);
+   background: #000;
    top: -22.5px;
    left: -80px;
 }
@@ -330,7 +319,7 @@ body{
    transform: rotate(-45deg);
    width: 115px;
    height: 1px;
-   background: rgba(110, 3, 3,2);
+   background: #000;
    top: -20.5px;
    right: -77px;
 }
@@ -345,7 +334,7 @@ body{
    transform: rotate(-45deg);
    width: 115px;
    height: 1px;
-   background: rgba(110, 3, 3,2);
+   background: #000;
    top: 60.5px;
    left: -81px;
 }
@@ -360,7 +349,7 @@ body{
    transform: rotate(45deg);
    width: 115px;
    height: 1px;
-   background: rgba(110, 3, 3,2);
+   background: #000;
    top: 60px; 
    right: -80px;
 }
